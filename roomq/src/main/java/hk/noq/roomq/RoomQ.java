@@ -169,7 +169,7 @@ public class RoomQ {
     if (cookieConfig.getSecure() != null) cookie.setSecure(cookieConfig.getSecure());
     if (cookieConfig.getPath() != null) cookie.setPath(cookieConfig.getPath());
     if (cookieConfig.getDomain() != null) cookie.setDomain(cookieConfig.getDomain());
-    if (cookieConfig.getSameSite() != null) cookie.setAttribute("SameSite", cookieConfig.getSameSite());
+    // if (cookieConfig.getSameSite() != null) cookie.setAttribute("SameSite", cookieConfig.getSameSite());
     return cookie;
   }
 
